@@ -1,10 +1,25 @@
 import os
+
+#install selenium using the line below
+#pip install selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+#install config using the line below
+#pip install config
 import config
 import time
+
+#install playsound using the line below
+#pip install playsound
 from playsound import playsound
+
+#install requests using the line below
+#pip install requests
 import requests
+
+#copy and paste the youtube link below to install the Chrome Web Driver for Selenium in python
+#https://youtu.be/2WVxzRD6Ds4
 
 os.environ['PATH'] += r"C:\Users\hp\Desktop\A\CS\Selenium_dev"
 driver = webdriver.Chrome()
